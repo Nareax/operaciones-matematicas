@@ -1,0 +1,18 @@
+#include <iostream>
+#include <stdio.h>
+#include <math.h>
+
+int main(int argc, char** argv) {
+	
+	int a,b;
+		printf("\nporfavor introdusca el numero que desea descomponer");
+	scanf("%d", &a);
+	
+	while(a/10){
+		b=a%10;
+		a=a/10;
+		printf("\n%d ", b);
+	}
+     printf("\n%d", a);
+		return 0;
+}
