@@ -19,28 +19,28 @@ scanf(" %d", &b);
 switch(b){
 	
 	case 1:
-	printf("\nla operacion elegida es la suma, ahora por que otro numero desea sumar el antrior: ");
+	printf("\nla operacion elegida es la suma, ahora por cual otro numero desea sumar el antrior: ");
 	scanf(" %d", &c);
 	d=a+c;
 	printf("\nel resultado de tu suma es: %d", d);
 	break;
 	
 	case 2:
-	printf("\nla operacion elegida es la resta, ahora por que otro numero desea restar el antrior: ");
+	printf("\nla operacion elegida es la resta, ahora por cual otro numero desea restar el antrior: ");
 	scanf(" %d", &c);
 	d=a-c;
 	printf("\nel resultado de tu resta es: %d", d);
 	break;
 	
 	case 3:
-	printf("\nla operacion elegida es la multiplicacion, ahora por que otro numero desea multiplicar el antrior: ");
+	printf("\nla operacion elegida es la multiplicacion, ahora por cual otro numero desea multiplicar el antrior: ");
 	scanf(" %d", &c);
 	d=a*c;
 	printf("\nel resultado de tu multiplicacion es: %d", d);
 	break;
 	
 	case 4:
-	printf("\nla operacion elegida es la division, ahora por que otro numero desea dividir el antrior: ");
+	printf("\nla operacion elegida es la division, ahora por que cual numero desea dividir el antrior: ");
 	scanf(" %d", &c);
 	d=a/c;
 	printf("\nel resultado de tu division es: %d", d);
