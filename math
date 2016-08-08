@@ -1,0 +1,63 @@
+#include <iostream>
+#include <stdio.h>
+
+int main(int argc, char** argv) {
+	
+	int a,b, c, d, e;
+	system("color f2");
+	
+	/*terminos dichos en clase: algoritmo, datos, informacion, entrada, proceso, salida, variable, */
+	
+	do{
+	e=0;
+printf("\nporfavor introdusca un numero para multiplicar, sumar, restar o dividir: ");
+scanf(" %d", &a);
+
+printf("\nelija la operacion que desea realizar: suma(1), resta(2), mukltiplicacion(3),\tdivision(4)");
+scanf(" %d", &b);
+
+switch(b){
+	
+	case 1:
+	printf("\nla operacion elegida es la suma, ahora por que otro numero desea sumar el antrior: ");
+	scanf(" %d", &c);
+	d=a+c;
+	printf("\nel resultado de tu suma es: %d", d);
+	break;
+	
+	case 2:
+	printf("\nla operacion elegida es la resta, ahora por que otro numero desea restar el antrior: ");
+	scanf(" %d", &c);
+	d=a-c;
+	printf("\nel resultado de tu resta es: %d", d);
+	break;
+	
+	case 3:
+	printf("\nla operacion elegida es la multiplicacion, ahora por que otro numero desea multiplicar el antrior: ");
+	scanf(" %d", &c);
+	d=a*c;
+	printf("\nel resultado de tu multiplicacion es: %d", d);
+	break;
+	
+	case 4:
+	printf("\nla operacion elegida es la division, ahora por que otro numero desea dividir el antrior: ");
+	scanf(" %d", &c);
+	d=a/c;
+	printf("\nel resultado de tu division es: %d", d);
+	break;
+	}
+	
+	printf("\ndesea continuar realizando operaciones? si(1), no(2)");
+	scanf("%d", &e);
+	
+	a=0;
+	b=0;
+	c=0;
+	d=0;
+
+system("cls");
+	
+}while(e==1);
+
+	return 0;
+}
